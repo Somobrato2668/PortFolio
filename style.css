@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background: #0084ff;;
+    background: #246099;;
     color:white;
     text-align:center;
     padding:20px;
@@ -18,8 +18,36 @@ section{
     background:rgb(147, 123, 241);
 }
 h1{
-text-decoration: underline;
+text-decoration: none;
 }
 h2 span{
 text-decoration: underline;
+}
+nav{
+background-color:#528be0;
+padding:10px;
+text-align:center;
+
+position: sticky;
+top: 0;
+}
+nav a{
+color:white;
+margin:15px;
+text-decoration:honeydew;
+font-weight:bold;
+}
+.hero{
+text-align:center;
+padding:30px;
+background:none;
+}
+
+.profile{
+width:175px;
+border-radius:50%;
+border:none;
+}
+html{
+scroll-behavior: smooth;
 }
